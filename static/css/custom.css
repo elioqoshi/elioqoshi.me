@@ -25,7 +25,7 @@ body {
   font-size: 16px;
   line-height: 1.75;
   font-family: "Overpass", sans-serif;
-  color: #222;
+  color: #000;
 }
 
 img {
@@ -362,7 +362,7 @@ strong, b {
 
 @media screen and (min-width: 769px) {
   .nav_submenu {
-    box-shadow: 0 0 60px rgba(34, 34, 34, 0.17);
+    box-shadow: 0 0 60px rgba(0, 0, 0, 0.17);
     z-index: 99;
     position: absolute;
   }
@@ -386,7 +386,7 @@ strong, b {
   color: #f1f3f5;
   position: relative;
   z-index: 10;
-  background-color: #333;
+  background: #212529;
   padding: 30px 25px;
 }
 
@@ -403,17 +403,6 @@ strong, b {
   opacity: 0.9;
 }
 
-.container-wrap {
-  flex: 1;
-}
-
-.hero_main {
-  background-color: #776f6f;
-  background-image: url(/images/desk_02.jpg);
-  background-position: left center;
-  background-repeat: no-repeat;
-}
-
 .post_featured {
   display: block;
   min-height: 200px;
@@ -424,7 +413,7 @@ strong, b {
 }
 
 .post_single img {
-  box-shadow: 0 0 75px rgba(34, 34, 34, 0.17);
+  box-shadow: 0 0 75px rgba(0, 0, 0, 0.17);
 }
 
 .project_body {
