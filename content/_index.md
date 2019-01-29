@@ -3,7 +3,7 @@ title: "" # homepage
 description: "I'm Elio, a designer, writer and FLOSS hacktivist based in Tirana, Albania. You will probably stumble upon me at Open Labs, Mozilla or SitePoint. Feel free to reach out to me at [elioqoshi.me](elioqoshi.me)"
 blocks: true
 ---
-<!-- start first section -->
+
 {{% block background = "mute" %}}
 
 ## HOLA
@@ -13,13 +13,8 @@ I'm Elio, a designer, writer and FLOSS hacktivist based in Tirana, Albania. You 
 {{< button text = "see my projects" link = "/portfolio" external = "true" >}}
 
 {{% /block %}}
-<!-- end first section -->
 
-<!-- start second section -->
 {{% block %}}
-
-Content is licensed by a CC-BY-SA license unless noted otherwise.
-
 ## Short Bio
 
 Short Bio
@@ -30,16 +25,6 @@ He is a long time member at [Open Labs Albania](https://www.openlabs.cc/), the f
 He has been co-organizing Open Source Conference Albania ([OSCAL](http://oscal.openlabs.cc/)) since back in 2014 to help the regional Free & Open Source scene. Currently Elio is finishing his Bachelor studies in Multimedia Arts while in his free time he loves cycling and playing Video Games.
 
 {{< button text = "My Diary" link = "/trip-diary" external = "true" >}}
-
-{{% /block %}}
-<!-- end second section -->
-
-<!-- start third section -->
-{{% block background = "mute"  columns = "2" %}}
-
-
-I'm Elio, a designer, writer and FLOSS hacktivist based in Tirana, Albania. You will probably stumble upon me at Open Labs, Mozilla or SitePoint. Feel free to reach out to me at [elioqoshi.me](elioqoshi.me)
-
 {{< button text = "My Resume" link = "/pdfs/resume.pdf" download = "true" filename = "resume.pdf"  >}}
 
-{{% /block %}} 
+{{% /block %}}
