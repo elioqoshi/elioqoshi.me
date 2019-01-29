@@ -1,0 +1,5 @@
+{{- define "main" }}
+<section class = "{{ if not .Params.blocks }}wrap{{ end }}">
+  {{ .Content }}
+</section>
+{{- end -}}

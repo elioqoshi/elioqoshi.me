@@ -1,0 +1,14 @@
+{{ define "main" }}
+  {{ if .Page.Params.showBanner }}{{ partial "banner.html" . }}{{ end }}
+  <section class = 'grid-3 pb-2 pt-2 wrap'>
+    {{- range where .Site.RegularPages "Section" .Section }}
+    <a href = '{{ .URL }}' class = 'card project_card'>
+      {{- with .Params.thumbnail }}
+      <div  class = 'project_body' style = 'background-image: url({{ . }})'></div>  
+      {{- end }}
+      <h3 class = "project_title">{{ .Title }}</h3>
+    </a>
+    {{- end }}
+  </section>
+  <section> {{ .Content }} </section>
+{{ end }}

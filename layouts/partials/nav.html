@@ -1,0 +1,26 @@
+<nav class = 'nav'>
+  <div class = 'wrap grid-auto'>
+    <div class = 'nav_brand'>
+      <a href = '/'>{{ .Site.Title }}</a>
+      <div class = 'nav_toggle'>&#9776;</div> 
+    </div>
+    <nav class = 'nav_menu'>  
+      {{- range .Site.Data.nav -}}
+        {{- $parent_link := (.link | urlize) -}}
+        {{- if not .sublinks -}}
+        <a href = '{{ with .url }}{{ . }}{{ else }}/{{ $parent_link }}/{{ end }}' class = 'nav_item{{ if hasPrefix $.RelPermalink $parent_link }} nav_active{{ end }}' {{ with .download }}download{{ end }}{{ with .filename }} = '{{ . }}' {{ end }}>{{ .link }}</a>
+        {{ else }}
+        <div class = 'nav_parent'>
+            <a href = '/{{ $parent_link }}/' class = 'nav_item {{ if hasPrefix $.RelPermalink .url }}nav_active{{ end }}'>{{ .link }} <i class = 'caret nav_caret'></i></a>
+          <div class = 'nav_submenu'>
+            {{- range .sublinks -}}
+              {{- $link := (.link | urlize) -}}
+              <a href = '/{{ $parent_link }}/{{ $link }}/' class = 'nav_item' {{ with .download }}download{{ end }}{{ with .filename }} = '{{ . }}' {{ end }}>{{ .link }}</a>
+            {{- end -}}
+          </div>
+        </div>
+        {{- end -}}
+    {{- end -}}
+    </nav>
+  </div>
+</nav>

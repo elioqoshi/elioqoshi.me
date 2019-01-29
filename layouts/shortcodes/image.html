@@ -1,0 +1,5 @@
+
+<figure style = 'width: {{ .Get "width" }};' {{ with (.Get "align") }}class = 'image_fluid float_{{ . }}'{{ end }}>
+  <img src= '{{ .Get "src" }}' alt= '{{ .Get "alt" }}' {{ with (.Get "title") }}title = '{{ . }}' {{ end }}>
+  {{ with (.Get "title") }}<figcaption>{{ . }}</figcaption>{{ end }}
+</figure>

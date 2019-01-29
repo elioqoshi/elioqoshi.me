@@ -1,0 +1,10 @@
+{{ define "main" }}
+  <div class = "mute pb-2 pt-2">
+    <h1 class = 'wrap_min'>{{ .Title }}</h1>
+  </div>
+  <section class = '{{ if not .Params.blocks }}wrap_min{{ end }}'>
+    <div class = 'pb-2 pt-1 post_single'>
+      {{ .Content }}
+    </div>
+  </section>
+{{ end }}

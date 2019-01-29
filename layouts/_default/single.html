@@ -1,0 +1,15 @@
+{{ define "main" }}
+  <div class = "mute pb-2 pt-2">
+    <section class = 'wrap_min'>
+      <h1>{{ .Title }}</h1>
+      {{ if eq .Section "blog" }}
+      {{ partial "metadata.html" . }}
+      {{ end }}
+    </section>
+  </div>
+  <section class = '{{ if or (eq .Section "blog") (not .Page.Params.blocks )}}wrap_min{{ end }}'>
+    <div class = 'pb-2 pt-1 post_single'>
+      {{ .Content }}
+    </div>
+  </section>
+{{ end }}

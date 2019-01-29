@@ -1,0 +1,17 @@
+<section class = 'section pt-2 pb-1 {{ with .Get "background" }}{{ . }}{{ end }}' {{ with .Get "blockImage" }} style = 'background-image: url({{ . }})' {{ end }}>
+  <div class = 'section_inner
+    {{ with eq (.Get "fullWidth") "true"}}
+      section_full
+    {{else}}
+      {{ if .Page.IsHome }}
+        wrap
+      {{ else }}
+        wrap_min
+      {{ end }}
+    {{ end }} 
+    {{ with .Get "columns"}}
+      grid-{{ . }}
+    {{ end }}'>
+    {{ .Inner }}
+  </div>
+</section>

@@ -1,0 +1,9 @@
+baseURL = "/"
+url = "elioqoshi.me"
+languageCode = "en"
+title = "Elio Qoshi"
+DefaultContentLanguage = "en"
+enableRobotsTXT = true
+# enableGitInfo = true
+pygmentsUseClasses = true
+pygmentsCodeFences = true

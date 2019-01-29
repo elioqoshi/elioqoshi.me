@@ -1,0 +1,7 @@
+<a class = 'button mt' href = '{{ with .Get "link" }}{{ . }}{{ else }}/{{ end }}' {{ if eq (.Get "external") "true" }} target = '_blank' rel = 'noopener'{{ end}} {{ with .Get "download" }}download{{ end }}{{ with .Get "filename" }} = '{{ . }}'{{ end }}>
+    {{- with .Get "text" }}
+      {{- . -}}
+    {{- else -}}
+      Read More
+    {{- end -}}
+</a>

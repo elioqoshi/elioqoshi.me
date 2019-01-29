@@ -1,0 +1,17 @@
+- link: Portfolio
+  sublinks:
+    - link: Bestseller
+    - link: Citixperience
+    - link: Glucosio
+    - link: resume
+      download: true
+      filename: resume.pdf
+      url: /pdfs/resume.pdf
+- link: About
+- link: resume
+  download: true
+  filename: resume.pdf
+  url: /pdfs/resume.pdf
+- link: Speaking
+- link: Contact
+- link: Blog
