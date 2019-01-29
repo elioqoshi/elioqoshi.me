@@ -74,7 +74,7 @@ function findChild(elem, child) {
   let fixed = 'nav_fixed';
   window.addEventListener('scroll', function() {
     let scrollPosition = document.documentElement.scrollTop;
-    if (scrollPosition > 350) {
+    if (scrollPosition > 50) {
       classPresent(nav, fixed) ? false : modifyClass(nav, fixed); 
 
     } else {
@@ -107,9 +107,9 @@ function wrapElement(el, wrapper) {
     wrapper.appendChild(el);
   }
 }
+
 (function makeTablesResponsive() {
   let tables = elems('table');
-  console.log(tables)
   if (tables.length >= 1) {
     tables.forEach(function(table) {
       let wrapper = document.createElement('div');
@@ -118,5 +118,3 @@ function wrapElement(el, wrapper) {
     })
   }
 })();
-
-
