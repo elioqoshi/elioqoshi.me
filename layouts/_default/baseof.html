@@ -5,7 +5,7 @@
   </head>
   <body>
     {{- partial "nav.html" . -}}
-    <main>
+    <main class = '{{ if .IsHome }}home{{ end }}'>
       {{- block "main" . -}}{{- end -}}
       {{- partial "footer.html" . -}}
     </main>

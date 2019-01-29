@@ -1,4 +1,4 @@
-<section class = 'section pt-2 pb-1 {{ with .Get "background" }}{{ . }}{{ end }}' {{ with .Get "blockImage" }} style = 'background-image: url({{ . }})' {{ end }}>
+<section class = 'section pt-2 pb-2 {{ with .Get "background" }}{{ . }}{{ end }}' {{ with .Get "blockImage" }} style = 'background-image: url({{ . }})' {{ end }}>
   <div class = 'section_inner
     {{ with eq (.Get "fullWidth") "true"}}
       section_full
