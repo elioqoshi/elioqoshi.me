@@ -1,4 +1,4 @@
-- link: Portfolio
+- link: Work
   sublinks:
     - link: Bestseller
     - link: Citixperience
@@ -12,6 +12,4 @@
   download: true
   filename: resume.pdf
   url: /pdfs/resume.pdf
-- link: Speaking
-- link: Contact
 - link: Blog
