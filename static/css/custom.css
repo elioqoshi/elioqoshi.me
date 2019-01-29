@@ -296,7 +296,7 @@ tbody td {
   display: flex;
   align-items: center;
   text-transform: uppercase;
-  font-size: 0.9rem;
+  font-size: 1rem;
   margin-right: 1rem;
   cursor: pointer;
 }
@@ -377,7 +377,7 @@ tbody td {
   transition: height 0.3s;
   width: 100%;
   min-width: 180px;
-  font-size: 0.9rem;
+  font-size: 1rem;
   border-radius: 0.3rem;
   background: #ffffff;
 }
