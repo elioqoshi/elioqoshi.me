@@ -1,0 +1,8 @@
+- name: Twitter
+  url: '/'
+- name: Mastodon
+  url: '/'
+- name: Github
+  url: '/'
+- name: Linkedin
+  url: '/'
