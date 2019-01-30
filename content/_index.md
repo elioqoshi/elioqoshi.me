@@ -1,30 +1,73 @@
 ---
 title: "" # homepage
-description: "I'm Elio, a designer, writer and FLOSS hacktivist based in Tirana, Albania. You will probably stumble upon me at Open Labs, Mozilla or SitePoint. Feel free to reach out to me at [elioqoshi.me](elioqoshi.me)"
+description: "I'm Elio, a UX Designer at OONI, Founder of Ura, and Tech Speaker at Mozilla. My work revolves around Open Source Design and Usable Security."
 blocks: true
 ---
 
-{{% block background = "mute" %}}
+{{% block background = "mute" class = "pt-2 hero" %}}
 
-## HOLA
+## Adopting [Open Source](http://www.opensourcedesign.net/) principles in [Design](http://www.ura.design/)
 
-I'm Elio, a designer, writer and FLOSS hacktivist based in Tirana, Albania. You will probably stumble upon me at Open Labs, Mozilla or SitePoint. Feel free to reach out to me at [elioqoshi.me](elioqoshi.me)
-
-{{< button text = "see my projects" link = "/portfolio" external = "true" >}}
+I'm Elio, a UX Designer at [OONI](https://ooni.torproject.org/), Founder of [Ura](http://www.ura.design/), and Tech Speaker at [Mozilla](http://www.mozilla.org/). My work revolves around [Open Source Design ](http://www.opensourcedesign.net/) and Usable Security.
 
 {{% /block %}}
 
-{{% block %}}
-## Short Bio
+{{% block columns = "2" %}}
+{{% column class = "flex" %}}
+#### UX / UI Design
+## OONI Probe
 
-Short Bio
-[Elio Qoshi](/) is founder of [Open Source Design](http://www.opensourcedesign.net/) startup [Ura Design](http://www.ura.design/) which specializes in visual design catered to open source projects and businesses. His daily job and passion is working as a Creative Lead at [OONI](https://ooni.torproject.org/), part of [The Tor Project](https://torproject.org/), helping design experiences for tools which empower people to expose internet censorship around the world. Furthermore, Elio is a Mozilla Tech Speaker & Reps Council Member, working on [Mozilla](http://www.mozilla.org/) Open Design mostly. 
+Redesigning the experience of measuring internet censorship and performance and collect evidence.
 
-He is a long time member at [Open Labs Albania](https://www.openlabs.cc/), the first hackerspace in Tirana, Albania, promoting Free Open Source Software. Writing technical articles is something Elio enjoys from time to time and he has been a contributing author at [SitePoint](http://www.sitepoint.com/) since 2014. covering topics he cares about, usually Free Open Source, Design &  Community. 
+{{< button text = "Case Study" link = "/" >}}
 
-He has been co-organizing Open Source Conference Albania ([OSCAL](http://oscal.openlabs.cc/)) since back in 2014 to help the regional Free & Open Source scene. Currently Elio is finishing his Bachelor studies in Multimedia Arts while in his free time he loves cycling and playing Video Games.
+{{% /column %}}
+{{% column class = "flex_row" %}}
 
-{{< button text = "My Diary" link = "/trip-diary" external = "true" >}}
-{{< button text = "My Resume" link = "/pdfs/resume.pdf" download = "true" filename = "resume.pdf"  >}}
+<!-- ![One Plus 6 OONI Probe 2](/images/one-plus-6-ooni-probe-2.png) -->
+{{< image src = "/images/one-plus-6-ooni-probe-2.png" width = "64%" alt = "One Plus 6 OONI Probe 2" >}}
 
+{{% /column %}}
 {{% /block %}}
+
+{{< underline nested = "true" width = "40%" >}}
+
+{{% block columns = "2" %}}
+{{% column class = "flex" %}}
+#### BRANDING & UX DESIGN
+## ThunderBird
+
+Refreshing the brand of the popular email client and improving its usability.
+
+{{< button text = "Case Study" link = "/" >}}
+
+{{% /column %}}
+{{% column class = "flex_row" %}}
+
+<!-- ![Thunderbird Style Guide Mockup 2](/images/thunderbird-style-guide-mockup-2.png) -->
+{{< image src = "/images/thunderbird-style-guide-mockup-2.png" width = "64%" alt = "Thunderbird Style Guide Mockup 2" >}}
+
+{{% /column %}}
+{{% /block %}}
+
+{{< underline nested = "true" width = "40%" >}}
+
+{{% block columns = "2" %}}
+{{% column class = "flex" %}}
+#### BRANDING
+## Tor Project Style Guide
+
+Setting the guidelines of the Tor Project brand and projects for a consistent visual identity across platforms.
+
+{{< button text = "Case Study" link = "/" >}}
+
+{{% /column %}}
+{{% column class = "flex_row" %}}
+
+<!-- ![Tor Style Guide Mockup 2](/images/tor-style-guide-mockup-2.png) -->
+{{< image src = "/images/tor-style-guide-mockup-2.png" width = "64%" alt = "tor-style-guide-mockup-2" >}}
+
+{{% /column %}}
+{{% /block %}}
+
+{{< button text = "Other Works" link = "/work" class = "mb-2 center_element" >}}
