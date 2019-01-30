@@ -1,7 +1,16 @@
 <footer class = 'footer'>
-  <section class = 'footer_inner wrap'>
-    <p>Let's work together, say hi: <a href = "mailto:elio@ura.design">elio@ura.design</a></p>
-    <p>Content is licensed by a CC-BY-SA license unless noted otherwise.</p>
+  <section class = 'footer_inner wrap grid-2'>
+    <div>
+      <h3>FIND ME ON</h3>
+      {{ range .Site.Data.social }}
+      <a href = '{{ .url }}' target = '_blank' rel = 'noopener' class = 'footer_link'>{{ .name }}</a>
+      {{ end }}
+    </div>
+    <div>
+      Let's work together, say hi: <a href = "mailto:elio@ura.design">elio@ura.design</a><br>
+      Content is licensed by a CC-BY-SA license unless noted otherwise.<br>
+      <a href = '/'>View the source of this websites</a>
+    </div>
   </section>
 </footer>
 {{- partial "scripts.html" . }}

@@ -1,0 +1,7 @@
+{{- if or (.Get "narrow") (.Get "nested") }}
+<div class = '{{ with .Get "narrow" }}wrap_min{{ end }}{{ with .Get "nested" }} wrap {{ end }}'>
+  <hr {{ with .Get "width" }}style = 'width: {{ . }};'{{end}}>
+</div>
+{{ else -}}
+  <hr {{ with .Get "width" }}style = 'width: {{ . }};'{{end}}>
+{{ end -}}

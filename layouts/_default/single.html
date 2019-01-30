@@ -1,9 +1,11 @@
 {{ define "main" }}
-  <section class = '{{ if or (eq .Section "blog") (not .Page.Params.blocks )}}wrap{{ end }}'>
+  <section class = '{{ if or (eq .Section "blog") (not .Page.Params.blocks )}}wrap{{ end }} {{ if eq .Section "blog" }}wrap_min{{ end }} '>
     <div class = 'pb-2 pt-1 post_single'>
       {{- if eq .Section "blog" -}}
-        <h1>{{ .Title }}</h1>
-        {{- partial "metadata.html" . }}
+        <div class = 'pb-1'>
+          <h1>{{ .Title }}</h1>
+          {{- partial "metadata.html" . }}
+        </div>
       {{- end }}
       {{ .Content }}
     </div>
