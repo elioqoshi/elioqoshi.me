@@ -987,8 +987,10 @@ strong, b {
   flex-direction: column;
 }
 
-.flex_row {
-  flex-direction: center;
+@media screen and (min-width: 769px) {
+  .flex_row {
+    flex-direction: row;
+  }
 }
 
 .hero p {
