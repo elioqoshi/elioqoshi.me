@@ -47,7 +47,7 @@ function findChild(elem, child) {
   navToggle.addEventListener('click', function() {
     modifyClass(this, 'nav_toggled');
     modifyClass(navMenu, 'nav_open');
-    classPresent(this, 'nav_toggled') ? content(this, "X") : content(this, "&#9776;");
+    classPresent(this, 'nav_toggled') ? content(this, " ") : content(this, "&#9776;");
   });
 })();
 
