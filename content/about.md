@@ -5,7 +5,7 @@ blocks: true
 {{% block narrow = "true" %}}
 ## Of [open sourcery](/) and [human-centric](/) design
 
-{{< image src = "/images/image.png" align = "left" width = "16%" >}}
+{{< image src = "/images/image.png" align = "left" width = "15%" >}}
 **Hey, I’m Elio, a UX Designer from Tirana, Albania**. I spend most of my time helping bring better design and usability to open source tools. Coming from a hackerspace community background, I struggled to understand how open source development processes and design can go hand in hand. As I explored this question throughout various Open Source projects, I started designing for communities like Mozilla, The Tor Project, Fedora, Thunderbird and others.
 
 Most of my daily work consists of doing UX Design at [OONI](https://ooni.torproject.org/) and [Ura](v). When I’m wearing my volunteer hat I help out at [Open Source Design](http://www.opensourcedesign.net/) and [Mozilla Tech Speakers](http://www.mozilla.org/). In the past I wrote for [SitePoint](http://www.sitepoint.com/), was part of the [Open Labs Hackerspace](https://www.openlabs.cc/) and co-organized the first five editions of [OSCAL (aka Open Source Conference Albania)](http://oscal.openlabs.cc/)
