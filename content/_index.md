@@ -17,7 +17,7 @@ I'm Elio, a UX Designer at [OONI](https://ooni.torproject.org/), Founder of [Ura
 #### UX / UI Design
 ## OONI Probe
 
-{{< image src = "/images/one-plus-6-ooni-probe-2.png" width = "64%" alt = "One Plus 6 OONI Probe 2" class = "mobile" >}}
+{{< image src = "/images/one-plus-6-ooni-probe-2.png" width = "64%" alt = "One Plus 6 OONI Probe 2" class = "mobile mt-1" >}}
 
 Redesigning the experience of measuring internet censorship and performance and collect evidence.
 
@@ -38,7 +38,7 @@ Redesigning the experience of measuring internet censorship and performance and 
 #### BRANDING & UX DESIGN
 ## ThunderBird
 
-{{< image src = "/images/thunderbird-style-guide-mockup-2.png" width = "64%" alt = "Thunderbird Style Guide Mockup 2" class = "mobile" >}}
+{{< image src = "/images/thunderbird-style-guide-mockup-2.png" width = "64%" alt = "Thunderbird Style Guide Mockup 2" class = "mobile mt-1" >}}
 
 Refreshing the brand of the popular email client and improving its usability.
 
@@ -59,7 +59,7 @@ Refreshing the brand of the popular email client and improving its usability.
 #### BRANDING
 ## Tor Project Style Guide
 
-{{< image src = "/images/tor-style-guide-mockup-2.png" width = "64%" alt = "tor-style-guide-mockup-2" class = "mobile" >}}
+{{< image src = "/images/tor-style-guide-mockup-2.png" width = "64%" alt = "tor-style-guide-mockup-2" class = " mt-1" >}}
 
 Setting the guidelines of the Tor Project brand and projects for a consistent visual identity across platforms.
 
