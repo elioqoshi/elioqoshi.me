@@ -17,6 +17,8 @@ I'm Elio, a UX Designer at [OONI](https://ooni.torproject.org/), Founder of [Ura
 #### UX / UI Design
 ## OONI Probe
 
+{{< image src = "/images/one-plus-6-ooni-probe-2.png" width = "64%" alt = "One Plus 6 OONI Probe 2" class = "mobile" >}}
+
 Redesigning the experience of measuring internet censorship and performance and collect evidence.
 
 {{< button text = "Case Study" link = "/" >}}
@@ -24,8 +26,7 @@ Redesigning the experience of measuring internet censorship and performance and 
 {{% /column %}}
 {{% column class = "flex_row" %}}
 
-<!-- ![One Plus 6 OONI Probe 2](/images/one-plus-6-ooni-probe-2.png) -->
-{{< image src = "/images/one-plus-6-ooni-probe-2.png" width = "64%" alt = "One Plus 6 OONI Probe 2" >}}
+{{< image src = "/images/one-plus-6-ooni-probe-2.png" width = "64%" alt = "One Plus 6 OONI Probe 2" class = "desktop" >}}
 
 {{% /column %}}
 {{% /block %}}
@@ -37,6 +38,8 @@ Redesigning the experience of measuring internet censorship and performance and 
 #### BRANDING & UX DESIGN
 ## ThunderBird
 
+{{< image src = "/images/thunderbird-style-guide-mockup-2.png" width = "64%" alt = "Thunderbird Style Guide Mockup 2" class = "mobile" >}}
+
 Refreshing the brand of the popular email client and improving its usability.
 
 {{< button text = "Case Study" link = "/" >}}
@@ -44,8 +47,7 @@ Refreshing the brand of the popular email client and improving its usability.
 {{% /column %}}
 {{% column class = "flex_row" %}}
 
-<!-- ![Thunderbird Style Guide Mockup 2](/images/thunderbird-style-guide-mockup-2.png) -->
-{{< image src = "/images/thunderbird-style-guide-mockup-2.png" width = "64%" alt = "Thunderbird Style Guide Mockup 2" >}}
+{{< image src = "/images/thunderbird-style-guide-mockup-2.png" width = "64%" alt = "Thunderbird Style Guide Mockup 2" class = "desktop" >}}
 
 {{% /column %}}
 {{% /block %}}
@@ -57,6 +59,8 @@ Refreshing the brand of the popular email client and improving its usability.
 #### BRANDING
 ## Tor Project Style Guide
 
+{{< image src = "/images/tor-style-guide-mockup-2.png" width = "64%" alt = "tor-style-guide-mockup-2" class = "mobile" >}}
+
 Setting the guidelines of the Tor Project brand and projects for a consistent visual identity across platforms.
 
 {{< button text = "Case Study" link = "/" >}}
@@ -64,10 +68,11 @@ Setting the guidelines of the Tor Project brand and projects for a consistent vi
 {{% /column %}}
 {{% column class = "flex_row" %}}
 
-<!-- ![Tor Style Guide Mockup 2](/images/tor-style-guide-mockup-2.png) -->
-{{< image src = "/images/tor-style-guide-mockup-2.png" width = "64%" alt = "tor-style-guide-mockup-2" >}}
+{{< image src = "/images/tor-style-guide-mockup-2.png" width = "64%" alt = "tor-style-guide-mockup-2" class = "desktop" >}}
 
 {{% /column %}}
 {{% /block %}}
 
+{{< column class = "wrap">}}
 {{< button text = "Other Works" link = "/work" class = "mb-2 center_element" >}}
+{{< /column >}}
