@@ -51,41 +51,41 @@ function findChild(elem, child) {
   });
 })();
 
-(function animateNav() {
-  let nav = elem('.nav_brand');
-  let shrink = 'nav_shrink';
-  let logo = elem('.logo');
-  let shrink1 = 'nav_logo';
-  window.addEventListener('scroll', function() {
-    let scrollPosition = document.documentElement.scrollTop;
-    if (scrollPosition > 100) {
-      classPresent(nav, shrink) ? false : modifyClass(nav, shrink); 
-      classPresent(logo, shrink1) ? false : modifyClass(logo, shrink1); 
+// (function animateNav() {
+//   let nav = elem('.nav_brand');
+//   let shrink = 'nav_shrink';
+//   let logo = elem('.logo');
+//   let shrink1 = 'nav_logo';
+//   window.addEventListener('scroll', function() {
+//     let scrollPosition = document.documentElement.scrollTop;
+//     if (scrollPosition > 100) {
+//       classPresent(nav, shrink) ? false : modifyClass(nav, shrink); 
+//       classPresent(logo, shrink1) ? false : modifyClass(logo, shrink1); 
 
-    } else {
-      classPresent(nav, shrink) ? modifyClass(nav, shrink) : false;
-      classPresent(logo, shrink1) ? modifyClass(logo, shrink1) : false;
-    }
-  });
-})();
+//     } else {
+//       classPresent(nav, shrink) ? modifyClass(nav, shrink) : false;
+//       classPresent(logo, shrink1) ? modifyClass(logo, shrink1) : false;
+//     }
+//   });
+// })();
 
-(function navigateToTop() {
-  let nav = elem('.nav');
-  let fixed = 'nav_fixed';
-  window.addEventListener('scroll', function() {
-    let scrollPosition = document.documentElement.scrollTop;
-    if (scrollPosition > 50) {
-      classPresent(nav, fixed) ? false : modifyClass(nav, fixed); 
+// (function navigateToTop() {
+//   let nav = elem('.nav');
+//   let fixed = 'nav_fixed';
+//   window.addEventListener('scroll', function() {
+//     let scrollPosition = document.documentElement.scrollTop;
+//     if (scrollPosition > 50) {
+//       classPresent(nav, fixed) ? false : modifyClass(nav, fixed); 
 
-    } else {
-      classPresent(nav, fixed) ? modifyClass(nav, fixed) : false;
-    }
-  });
+//     } else {
+//       classPresent(nav, fixed) ? modifyClass(nav, fixed) : false;
+//     }
+//   });
 
-  nav.addEventListener('click', function() {
-    document.documentElement.scrollTop = 0;
-  });
-})();
+//   nav.addEventListener('click', function() {
+//     document.documentElement.scrollTop = 0;
+//   });
+// })();
 
 (function removeEmptyParagraphs(){
   let paragraphs = document.querySelectorAll('p');
