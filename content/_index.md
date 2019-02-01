@@ -59,7 +59,7 @@ Refreshing the brand of the popular email client and improving its usability.
 #### BRANDING
 ## Tor Project Style Guide
 
-{{< image src = "/images/tor-style-guide-mockup-2.png" width = "64%" alt = "tor-style-guide-mockup-2" class = " mt-1" >}}
+{{< image src = "/images/tor-style-guide-mockup-2.png" width = "64%" alt = "tor-style-guide-mockup-2" class = "mobile mt-1" >}}
 
 Setting the guidelines of the Tor Project brand and projects for a consistent visual identity across platforms.
 
