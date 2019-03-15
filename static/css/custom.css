@@ -206,8 +206,8 @@ strong, b {
   background: transparent;
   padding: 10px 25px;
   text-transform: uppercase;
-  color: #3399d4;
-  border: 1px solid #3399d4;
+  color: #000;
+  border: 1px solid #000;
   text-align: center;
   display: inline-block;
   margin-right: 1.5rem;
@@ -218,7 +218,7 @@ strong, b {
 }
 
 .button:hover {
-  background: #3399d4;
+  background: #000;
   color: #ffffff;
 }
 

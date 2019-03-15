@@ -30,7 +30,7 @@ Playing Overwatch
 Surveillance capitalism\
 Internet censorship\
 Design rockstars\
-Restrictive copyrigh\
+Restrictive copyright\
 
 {{%/ column %}}
 {{% /block %}}
