@@ -2,8 +2,6 @@
 title: "Trip Diary"
 ---
 
-![](/images/FOSDEM_Small.jpg)
-
 In the following I try to list all my travels related to Open Labs, Mozilla, OONI and other general tech events. Not counting events at [Open Labs Hackerspace](https://openlabs.cc/) in Tirana, including [OSCAL](http://www.oscal.openlabs.cc/). You can check out whether I have given a talk in these events and my related trip reports to that.
 
 Event	| Location |	Date | 	Giving a Talk |	Trip Report 
@@ -27,7 +25,7 @@ Mozilla All-Hands | Kailua-Kona, Hawaii, USA | 5-11 December 2016 | No | -
 Underexposed | Berlin, Germany | 11 November 2016 | No | -  
 Open Fest Bulgaria | Sofia, Bulgaria | 5 & 6 November 2016 | Yes | - 
 Mozilla Festival | London, UK | 28-30 October 2016 | No | -  
-SFK 2016 | Prishtina, Kosovo | 21-23 October 2016 | Yes | [Link](https://elioqoshi.me/en/2016/11/sfk16/)
+SFK'16 | Prishtina, Kosovo | 21-23 October 2016 | Yes | [Link](https://elioqoshi.me/en/2016/11/sfk16/)
 Push Conference | Munich, Germany | 20 & 21 October 2016 | Yes | [Link](https://elioqoshi.me/en/2016/10/push-conference-2016/)
 Tor Meeting | Seattle, WA, USA | 26 September - 2 October 2016 | No | -
 Mozilla Tech Speakers Meetup | Berlin, Germany | 9 & 10 September 2016 | Yes | -

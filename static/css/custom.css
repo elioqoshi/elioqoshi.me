@@ -837,6 +837,10 @@ strong, b {
   margin: 0 auto;
 }
 
+.mute h1.wrap_min {
+text-align: center !important;
+}
+
 .wrap_min {
   max-width: 840px;
 }

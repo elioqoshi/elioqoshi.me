@@ -21,7 +21,7 @@ I'm Elio, a UX Designer at [OONI](https://ooni.torproject.org/), Founder of [Ura
 
 Redesigning the experience of measuring internet censorship and performance and collect evidence.
 
-{{< button text = "Case Study" link = "/" >}}
+{{< button text = "Case Study" link = "/work/ooni" >}}
 
 {{% /column %}}
 {{% column class = "flex_row" %}}
