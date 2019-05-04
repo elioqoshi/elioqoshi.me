@@ -859,7 +859,7 @@ text-align: center !important;
   }
 }
 
-.grid-2, .grid-3, .grid-4, .grid-auto, .grid-reverse {
+.grid-2, .grid-3, .grid-4, .grid-5, .grid-auto, .grid-reverse {
   display: grid;
   grid-template-columns: 1fr;
 }
@@ -883,6 +883,10 @@ text-align: center !important;
   }
   .grid-4 {
     grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  }
+  .grid-5 {
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+    grid-gap: 2rem 0rem;
   }
 }
 
@@ -987,6 +991,19 @@ text-align: center !important;
   display: block;
   max-width: 225px;
 }
+
+.grayscale {
+  opacity: 0.65;
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+}
+
+.grayscale:hover {
+  opacity: 1;
+  transition: .25s ease-in-out;
+  filter: none;
+}
+
 
 @media screen and (min-width: 769px) {
   .center_element {

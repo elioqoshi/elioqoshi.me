@@ -76,3 +76,14 @@ Setting the guidelines of the Tor Project brand and projects for a consistent vi
 {{< column class = "wrap">}}
 {{< button text = "Other Works" link = "/work" class = "mb-2 center_element" >}}
 {{< /column >}}
+
+{{% block background = "mute" columns = "4" %}}
+
+{{< image src = "/images/mozilla.svg" width = "65%" alt = "Mozilla Logo" class = "desktop mobile center_element grayscale" >}}
+{{< image src = "/images/linuxfoundation.svg" width = "65%" alt = "Linux Foundation Logo" class = "desktop mobile center_element grayscale" >}}
+{{< image src = "/images/tor.svg" width = "65%" alt = "Tor Project Logo" class = "desktop mobile center_element grayscale" >}}
+{{< image src = "/images/fsfe.svg" width = "65%" alt = "FSFE Logo" class = "desktop mobile center_element grayscale" >}}
+{{< image src = "/images/stickermule.svg" width = "65%" alt = "Stickermule Logo" class = "desktop mobile center_element grayscale" >}}
+{{< image src = "/images/otf.svg" width = "65%" alt = "OpenTechFund Logo" class = "desktop mobile center_element grayscale" >}}
+
+{{% /block %}}
