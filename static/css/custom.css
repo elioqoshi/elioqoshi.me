@@ -315,6 +315,10 @@ strong, b {
   cursor: pointer;
 }
 
+.nav_item:hover {
+    color:  #3399d4 !important;
+}
+
 @media screen and (max-width: 768px) {
   .nav_item {
     border-bottom: 1px dotted #ebeef1;
