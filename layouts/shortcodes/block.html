@@ -1,3 +1,4 @@
+{{ $_hugo_config := `{ "version": 1 }` }}
 <section class = 'section {{ with .Get "thin" }}section_thin{{ end }} pt-1 pb-1 {{ with .Get "background" }}{{ . }}{{ end }} {{ with .Get "class"}}{{ . }}{{ end }}' {{ with .Get "blockImage" }} style = 'background-image: url({{ . }})' {{ end }}>
   <div class = 'section_inner{{ with eq (.Get "fullWidth") "true"}} section_full {{else}}{{ if .Page.IsHome }} wrap{{ else }} wrap_min {{ end }} {{ end }} {{ with .Get "columns"}} grid-{{ . }} {{ end }} {{ with .Get "narrow" }}wrap_min{{ end }}'>
     {{ .Inner }}

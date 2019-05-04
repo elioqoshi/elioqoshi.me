@@ -42,7 +42,7 @@ Redesigning the experience of measuring internet censorship and performance and 
 
 Refreshing the brand of the popular email client and improving its usability.
 
-{{< button text = "Case Study" link = "/" >}}
+{{< button text = "Case Study" link = "/work/thunderbird" >}}
 
 {{% /column %}}
 {{% column class = "flex_row" %}}
