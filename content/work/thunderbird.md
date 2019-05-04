@@ -39,6 +39,7 @@ June, 2018
 {{% /block %}}
 
 {{% block %}}
+
 ## Design challenge
 The Thunderbird project has been welcoming to suggestions and help, allowing us to enjoy the process thoroughly beyond simply handing off the deliverables.
 
@@ -46,8 +47,10 @@ The Thunderbird project has been welcoming to suggestions and help, allowing us 
 
 
 ## New Logo
-
 After the Firefox logo was revamped in 2017, a Thunderbird contributor filed a ticket on Bugzilla suggesting to follow Firefox’ lead and redesign the Thunderbird logo according to the new Photon Design guidelines. This coincided with our own experiments on how Thunderbird’s logo could be like so we joined the conversation on Bugzilla. The new logo appeared in Thunderbird 60.
+
+## Style Guide
+We developed a full style guide for Thunderbird, based on the Photon Design system used by Firefox. As latter is quite extensive (Firefox use cases are way broader than Thunderbird’s), we tweaked it to apply in Thunderbird’s case. It’s a [living style guide](https://uracreative.github.io/thunderbird) and has lots of room for improvement in the future. However the next step is to implement all these design decisions. If the style guide describes patterns and guidelines well, but they aren’t put into practice, the impact of a style guide is minimal. Hence, we look forward to see those changes be implemented and continue supporting Thunderbird with that task. 
 
 ## Users
 The target group for this challenge is the typical citizen service customer. Essentially anyone from a person who needs to get a driver’s license or residence to someone who needs to get clarification about pension issues. The users span in both Danes and foreigners (non-danish speaking) of all ages, genders or ethnic groups.
